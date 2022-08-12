@@ -140,3 +140,15 @@ padding: 50px 0 20px;
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
 }
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
